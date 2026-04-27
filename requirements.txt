@@ -1,0 +1,24 @@
+# Database
+SQLAlchemy==2.0.45
+psycopg2-binary==2.9.11
+psycopg[binary]==3.3.2
+psycopg-pool==3.3.0
+alembic==1.17.2
+greenlet==3.3.0
+
+### FrameWorks
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langgraph 
+langgraph-checkpoint-redis
+langsmith
+
+
+# Model Validation / Data Validation
+pydantic==2.12.5
+pydantic-settings==2.12.0
+pydantic_core==2.41.5
+annotated-types==0.7.0
+python-dotenv==1.2.1
