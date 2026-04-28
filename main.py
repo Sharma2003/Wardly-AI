@@ -1,10 +1,3 @@
-"""
-Wardly AI — FastAPI Entry Point
-================================
-Run:
-    uvicorn main:app --reload --port 8000
-"""
-
 import logging
 from contextlib import asynccontextmanager
 
@@ -20,13 +13,6 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(levelname)s  %(me
 log = logging.getLogger("wardly")
 
 
-# @asynccontextmanager
-# async def lifespan(app: FastAPI):
-#     log.info("Building LangGraph app…")
-#     controller.langgraph_app = build_app(checkpointer=REDIS_URL)
-#     log.info("LangGraph app ready.")
-#     yield
-#     log.info("Shutting down.")
 
 
 app = FastAPI(
