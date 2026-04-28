@@ -1,0 +1,33 @@
+{
+  "report_title": "Pre-Consultation Report \u2014 Fever, Headache, Back Pain",
+  "report_summary": "Patient presents with fever, headache, and back pain starting the day before yesterday. Headache and back pain are described as sharp and rated 8/10 in severity. Headache is constant and localized, without radiation.",
+  "status": "completed",
+  "source": "ai_interview",
+  "sections": [
+    {
+      "section_title": "Chief Complaint",
+      "section_order": 1,
+      "section_text": "Fever, headache, and back pain."
+    },
+    {
+      "section_title": "History of Present Illness",
+      "section_order": 2,
+      "section_text": "The patient reports onset of fever, headache, and back pain two days prior to the interview. The headache is constant, localized, and described as sharp, rated 8/10 in severity. The back pain is also described as sharp and rated 8/10 in severity. The headache does not spread to other locations. No aggravating factors were mentioned."
+    },
+    {
+      "section_title": "Review of Systems",
+      "section_order": 3,
+      "section_text": "Constitutional: Reports fever. HEENT: Reports headache. Respiratory: No information provided. Cardiovascular: No information provided. Gastrointestinal: No information provided. Genitourinary: No information provided. Musculoskeletal: Reports back pain. Neurological: No information provided. Psychiatric: No information provided. Skin: No information provided."
+    },
+    {
+      "section_title": "Clinical Impression",
+      "section_order": 4,
+      "section_text": "Findings are consistent with possible infectious, inflammatory, or musculoskeletal processes. Clinical correlation required."
+    },
+    {
+      "section_title": "Information Gaps",
+      "section_order": 5,
+      "section_text": "Need information regarding duration of fever, character of fever (e.g., chills, sweats), associated symptoms (e.g., nausea, vomiting, stiff neck, photophobia, muscle aches, urinary symptoms), medication use, allergies, past medical history, social history, and family history."
+    }
+  ]
+}

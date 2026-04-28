@@ -1,19 +1,14 @@
-# Database
-SQLAlchemy==2.0.45
-psycopg2-binary==2.9.11
-psycopg[binary]==3.3.2
-psycopg-pool==3.3.0
-alembic==1.17.2
-greenlet==3.3.0
-
+fastapi
+uvicorn 
 ### FrameWorks
 langchain
 langchain-core
 langchain-community
 langchain-huggingface
 langgraph 
-langgraph-checkpoint-redis
+langgraph-checkpoint-sqlite
 langsmith
+langchain-ollama
 
 
 # Model Validation / Data Validation

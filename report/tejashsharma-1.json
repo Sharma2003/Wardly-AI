@@ -1,0 +1,33 @@
+{
+  "report_title": "Pre-Consultation Report \u2014 Fever and Headache",
+  "report_summary": "Patient presents with a 2-day history of fever and headache. The headache is described as sharp, localized to the middle of the forehead, constant, and rated 8/10 in severity.",
+  "status": "completed",
+  "source": "ai_interview",
+  "sections": [
+    {
+      "section_title": "Chief Complaint",
+      "section_order": 1,
+      "section_text": "Fever and headache."
+    },
+    {
+      "section_title": "History of Present Illness",
+      "section_order": 2,
+      "section_text": "Onset: 2 days ago. Duration: 2 days. Character: Sharp. Severity: 8/10. Location: Middle of the forehead. Radiation: Not specified, localized. Timing: Constant. Aggravating factors: Not specified. Relieving factors: Not specified. Pertinent negatives: No other symptoms reported."
+    },
+    {
+      "section_title": "Review of Systems",
+      "section_order": 3,
+      "section_text": "None reported."
+    },
+    {
+      "section_title": "Clinical Impression",
+      "section_order": 4,
+      "section_text": "Findings are consistent with possible causes of acute headache and fever, such as infection (e.g., viral, bacterial) or inflammatory processes."
+    },
+    {
+      "section_title": "Information Gaps",
+      "section_order": 5,
+      "section_text": "Need to inquire about: specific temperature, associated symptoms (nausea, vomiting, photophobia, phonophobia, stiff neck, cough, sore throat, rhinorrhea, body aches, rash, diarrhea, urinary symptoms), prior headache history, medication use (including OTC), allergies, social history, and family history."
+    }
+  ]
+}

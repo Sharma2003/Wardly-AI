@@ -1,0 +1,33 @@
+{
+  "report_title": "Pre-Consultation Report \u2014 Ankle Injury",
+  "report_summary": "Patient presents following a football injury this morning involving a twisted ankle and associated back pain. The ankle pain is sharp, constant, located on the outside, rated as 8/10, worsened by weight-bearing, and accompanied by swelling. Back pain is also present and related to the same incident.",
+  "status": "completed",
+  "source": "ai_interview",
+  "sections": [
+    {
+      "section_title": "Chief Complaint",
+      "section_order": 1,
+      "section_text": "Twisted ankle with swelling and associated back pain after playing football."
+    },
+    {
+      "section_title": "History of Present Illness",
+      "section_order": 2,
+      "section_text": "The patient sustained an ankle injury this morning while playing football. The mechanism involved twisting the ankle. The patient reports sharp pain localized to the outside of the ankle, rated as 8 out of 10 in severity. The pain is constant and remains localized to the ankle area. The pain is exacerbated by walking or putting weight on the affected ankle. There is associated swelling. The patient also reports concurrent back pain that occurred during the same incident."
+    },
+    {
+      "section_title": "Review of Systems",
+      "section_order": 3,
+      "section_text": "Constitutional: Denies fever. HEENT: Negative. Respiratory: Negative. Cardiovascular: Denies chest pain. Gastrointestinal: Negative. Genitourinary: Negative. Musculoskeletal: Reports sharp, constant 8/10 pain on the outside of the right ankle, worsened by weight-bearing, with swelling. Reports associated back pain related to the same incident. Neurological: Negative. Psychiatric: Negative. Skin: Reports swelling of the ankle."
+    },
+    {
+      "section_title": "Clinical Impression",
+      "section_order": 4,
+      "section_text": "Findings are consistent with possible ankle sprain, potentially involving lateral ligaments, and possible back strain related to the football incident. Clinical correlation required."
+    },
+    {
+      "section_title": "Information Gaps",
+      "section_order": 5,
+      "section_text": "Details regarding specific mechanism of injury, presence of popping sound, ability to bear weight immediately after injury, prior history of ankle injuries, type of footwear, and specific location/character of back pain are not detailed and require physician follow-up."
+    }
+  ]
+}
