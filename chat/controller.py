@@ -32,10 +32,6 @@ REPORTS_DIR.mkdir(exist_ok=True)
 sessions: Dict[str, dict] = {}
 
 
-# ─────────────────────────────────────────────────────────
-# Helpers
-# ─────────────────────────────────────────────────────────
-
 def _config(thread_id: str):
     return {"configurable": {"thread_id": thread_id}}
 
@@ -66,9 +62,6 @@ def _extract_ai_reply(messages):
     return ""
 
 
-# ─────────────────────────────────────────────────────────
-# Routes
-# ─────────────────────────────────────────────────────────
 
 @router.post("/start")
 async def start_session(req: PatientStartRequest):
@@ -130,19 +123,19 @@ async def next_message(req: PatientChatRequest):
 
     done = bool(result.get("done") or result.get("final_report"))
 
-    # ── Generate report if done ───────────────────────────
+
     if result.get("done"):
     
-    # Step 1: Extract structured chat
+
         chat = structure_chat(result["messages"])
 
-        # Step 2: Generate report directly (no queue)
+
         report = generate_report_from_chat(chat)
 
-        # Step 3: Save report
+
         save_report_to_file(report, thread_id, patient_name=session.get("patient_name", "patient"))
 
-        # Optional: store in result
+
         result["final_report"] = report
 
     return {
